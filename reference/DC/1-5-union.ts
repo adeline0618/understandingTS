@@ -3,10 +3,10 @@
    *  Union Types: OR
    */
   type Direction = "left" | "right" | "up" | "down";
-  function move(direction: Direction) {
+  function _move(direction: Direction) {
     console.log(direction);
   }
-  move("down");
+  _move("down");
 
   type TileSize = 8 | 16 | 32;
   const tile: TileSize = 16;
