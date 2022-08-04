@@ -1,6 +1,6 @@
 {
   /**
-   * Intersection Types: &
+   * Intersection Types: &  다양한 타입을 하나로 묶어서..
    */
   type Student = {
     name: string;
@@ -17,7 +17,7 @@
   }
 
   internWork({
-    name: 'ellie',
+    name: "ellie",
     score: 1,
     empolyeeId: 123,
     work: () => {},
